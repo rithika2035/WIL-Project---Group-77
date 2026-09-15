@@ -1,0 +1,50 @@
+known Topics
+#    Model                     NDCG@1  NDCG@3    NDCG@5
+---  ----------------------  --------  --------  --------
+a    walert.rag.bm25           0.5119  0.4912ᶜ   0.4733ᶜ
+b    walert.rag.dense.faiss    0.6905  0.6119ᶜ   0.5812ᶜ
+c    walert_intent             0.6429  0.3017    0.2180
+========================
+% Add in preamble
+\usepackage{graphicx}
+\usepackage{booktabs}
+========================
+
+
+% To change the table size, act on the resizebox argument `0.8`.
+\begin{table*}[ht]
+\centering
+\caption{
+Overall effectiveness of the models.
+The best results are highlighted in boldface.
+Superscripts denote significant differences in Tukey's HSD test with $p \le 0.01$.
+}
+\resizebox{0.8\textwidth}{!}{
+\begin{tabular}{c|l|c|c|c}
+\toprule
+\textbf{\#}
+& \textbf{Model}
+& \textbf{NDCG@1}
+& \textbf{NDCG@3}
+& \textbf{NDCG@5} \\ 
+\midrule
+a &
+walert.rag.bm25 &
+0.5119\hphantom{$^{bc}$} &
+0.4912$^{c}$\hphantom{$^{b}$} &
+0.4733$^{c}$\hphantom{$^{b}$} \\
+b &
+walert.rag.dense.faiss &
+\textbf{0.6905}\hphantom{$^{ac}$} &
+\textbf{0.6119}$^{c}$\hphantom{$^{a}$} &
+\textbf{0.5812}$^{c}$\hphantom{$^{a}$} \\
+c &
+walert\_intent &
+0.6429\hphantom{$^{ab}$} &
+0.3017\hphantom{$^{ab}$} &
+0.2180\hphantom{$^{ab}$} \\
+\bottomrule
+\end{tabular}
+}
+\label{tab:results}
+\end{table*}
