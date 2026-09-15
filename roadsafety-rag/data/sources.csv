@@ -1,0 +1,6 @@
+doc_id,title,url,date_accessed,driver_stage,topic,notes
+learner_handbook,"Learner driver logbook guide",https://www.vicroads.vic.gov.au/,2026-09-15,learner,general,"replace with real URL/date when downloaded"
+p1_p2_conditions,"P1/P2 probationary licence conditions",https://www.vicroads.vic.gov.au/,2026-09-15,P1,general,"split into P1 vs P2 rows if the source covers both separately"
+road_rules_handbook,"Victorian Road Rules Handbook",https://www.vicroads.vic.gov.au/,2026-09-15,all,general,""
+tac_stats,"TAC road safety statistics",https://www.tac.vic.gov.au/,2026-09-15,all,statistics,""
+faq_mobile_phones,"VIC mobile phone use FAQ",https://www.vicroads.vic.gov.au/,2026-09-15,all,phone_use,""

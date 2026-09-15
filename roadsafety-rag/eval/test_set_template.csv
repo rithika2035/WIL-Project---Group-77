@@ -1,0 +1,9 @@
+question_id,persona,question,expect_answerable,expected_driver_stage,expected_topic,gold_source_doc_id,notes
+q1,learner,"How many supervised hours do I need before I can get my P1?",yes,learner,general,learner_handbook,
+q2,learner,"Do I need L plates on a borrowed car?",yes,learner,general,learner_handbook,
+q3,educator,"What exactly changes in phone-use rules between P1 and P2?",yes,P1,phone_use,p1_p2_conditions,"stage-nuance question - system must not conflate P1 and P2 answers"
+q4,educator,"What's the correct BAC limit to teach P-plate students?",yes,P1,alcohol_drugs,p1_p2_conditions,
+q5,general,"What's the speed limit in a school zone and when does it apply?",yes,all,speed,road_rules_handbook,
+q6,general,"Can I drive interstate on my Victorian P1?",yes,P1,general,p1_p2_conditions,"stage nuance test question from Phase 1"
+q7,general,"What's the exact fine amount for a first mobile phone offence in 2019?",no,all,phone_use,,"deliberately out of scope/outdated - system should abstain, not guess"
+q8,general,"What's my star sign compatibility with a Gemini?",no,all,general,,"deliberately irrelevant - system must abstain"

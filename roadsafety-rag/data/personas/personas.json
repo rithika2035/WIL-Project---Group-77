@@ -1,0 +1,46 @@
+{
+  "personas": [
+    {
+      "name": "Learner driver",
+      "description": "Holds a learner permit, driving with a supervising driver, building up logbook hours.",
+      "example_questions": [
+        "How many supervised hours do I need before I can get my P1?",
+        "Do I need a qualified supervising driver at all times?",
+        "What's the speed limit I need to follow on a learner permit?",
+        "Can I drive on the freeway as a learner?",
+        "What BAC limit applies to me as a learner?",
+        "Do I need L plates on a borrowed car?"
+      ]
+    },
+    {
+      "name": "Road safety educator",
+      "description": "Teaches road rules to students or new drivers; needs precise, citable answers to correct misconceptions.",
+      "example_questions": [
+        "What exactly changes in phone-use rules between P1 and P2?",
+        "What's the correct BAC limit to teach P-plate students?",
+        "Is it true P1 drivers can't drive certain high-powered vehicles?",
+        "What's the current give-way rule at a roundabout with multiple lanes?",
+        "Where can I find the official source for the P1 mobile phone restriction?",
+        "What's the penalty structure for P1 phone use violations?"
+      ]
+    },
+    {
+      "name": "General road user",
+      "description": "Fully licensed driver or pedestrian/cyclist looking up specific rules as they come up day to day.",
+      "example_questions": [
+        "What's the speed limit in a school zone and when does it apply?",
+        "Do I have to give way to pedestrians at a roundabout?",
+        "What's the fine for using a phone while stopped at traffic lights?",
+        "Is it legal to do a U-turn at traffic lights without a sign?",
+        "What's the current road toll trend for Victoria?",
+        "Can I drive interstate on my Victorian licence?"
+      ]
+    }
+  ],
+  "stage_nuance_test_questions": [
+    "Can I drive interstate on my Victorian P1?",
+    "Does the zero BAC rule still apply to me once I'm on my P2?",
+    "If I got my P1 in another state, do Victorian P1 phone rules apply to me here?",
+    "Do P2 drivers have the same passenger restrictions as P1 drivers at night?"
+  ]
+}
