@@ -45,6 +45,16 @@ def classify_effectiveness(expect_answerable: str, used_fallback: bool) -> str:
     return "wrongly_answered"  # expected abstain but the system answered - riskiest failure mode
 
 
+def stage_sets_overlap(stage_a: str, stage_b: str) -> bool:
+    """Both sides can be semicolon-separated (e.g. 'learner;P1' vs 'P1;P2').
+    Match if either is tagged 'all' or the sets share any stage."""
+    set_a = {s.strip() for s in str(stage_a).split(";") if s.strip()}
+    set_b = {s.strip() for s in str(stage_b).split(";") if s.strip()}
+    if "all" in set_a or "all" in set_b:
+        return True
+    return bool(set_a & set_b)
+
+
 def run_eval(test_set_path: str) -> pd.DataFrame:
     df = pd.read_csv(test_set_path)
     rows = []
@@ -59,7 +69,7 @@ def run_eval(test_set_path: str) -> pd.DataFrame:
         stage_match = (
             top_hit is not None
             and str(row.get("expected_driver_stage", "")).strip()
-            and top_hit["metadata"]["driver_stage"] in (row["expected_driver_stage"], "all")
+            and stage_sets_overlap(top_hit["metadata"]["driver_stage"], row["expected_driver_stage"])
         )
         topic_match = (
             top_hit is not None
@@ -75,6 +85,7 @@ def run_eval(test_set_path: str) -> pd.DataFrame:
         rows.append({
             "question_id": row["question_id"],
             "persona": row.get("persona", ""),
+            "question_type": row.get("question_type", ""),  # known/inferred/out_of_kb, if present
             "question": row["question"],
             "effectiveness": effectiveness,
             "stage_match": stage_match,
@@ -100,13 +111,19 @@ def print_summary(results: pd.DataFrame):
         print(f"Topic match:  {results.loc[answerable_mask, 'topic_match'].mean():.2%}")
         print(f"Source attribution correct: {results.loc[answerable_mask, 'source_attribution_correct'].mean():.2%}")
 
+    if "question_type" in results.columns and results["question_type"].notna().any():
+        print("\n=== Effectiveness by question type (known vs inferred vs out_of_kb) ===")
+        print("NOTE: 'inferred' questions require combining multiple facts/passages -")
+        print("expect these to score lower than 'known' questions with this pipeline.")
+        print(results.groupby("question_type")["effectiveness"].value_counts().to_string())
+
     print(f"\nTotal questions evaluated: {n}")
     print("NOTE: 'faithful' column is blank - fill it in by hand after reading "
           "each answer against its cited source, then recompute a faithfulness % yourself.")
 
 
 if __name__ == "__main__":
-    test_set_path = sys.argv[1] if len(sys.argv) > 1 else "eval/test_set_template.csv"
+    test_set_path = sys.argv[1] if len(sys.argv) > 1 else "eval/test_set_from_topics.csv"
     results = run_eval(test_set_path)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

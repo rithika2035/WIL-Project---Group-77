@@ -62,6 +62,10 @@ def build_index(chunks: list[dict] | None = None):
             "topic": c["topic"],
             "url": c.get("url", ""),
             "date_accessed": c.get("date_accessed", ""),
+            "chapter": c.get("chapter", ""),
+            "section_title": c.get("section_title", ""),
+            "page_number": str(c.get("page_number", "")),
+            "content_type": c.get("content_type", ""),
         } for c in chunks],
     )
     print(f"Indexed {len(chunks)} chunks into Chroma collection '{COLLECTION_NAME}'")

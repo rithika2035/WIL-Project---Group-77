@@ -6,6 +6,15 @@ Reproduces the pipeline architecture of RMIT's Walert project
 (github.com/rmit-ir/walert) - a fresh implementation, not a fork, adapted to
 a different domain (long-form road rules vs FAQ pairs).
 
+## WIL Project Group-77
+
+Rithika Pamu - s4146941,
+Pranav Patil - s4229967,
+Rujuta Patil - s4189237,
+Dev Jadeja   - s4217956,
+Vivek Sharma - s4233203,
+Mohammad Mahin Shekh - s4220857
+
 ## Project structure
 
 ```
@@ -44,10 +53,21 @@ roadsafety-rag/
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
 
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3.2:3b
+
+## steps to run model 
+pip install -r requirements.txt
+ollama pull llama3.2:3b
+ 
+```
+## Usage
+
+```bash
+python src/pipeline.py build-collection
+python src/pipeline.py ask "Can a P1 driver use a hands-free phone?"
+streamlit run app.py
 ```
 
 ## Workflow, mapped to the project checklist

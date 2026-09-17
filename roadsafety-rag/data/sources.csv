@@ -1,6 +1,5 @@
 doc_id,title,url,date_accessed,driver_stage,topic,notes
-learner_handbook,"Learner driver logbook guide",https://www.vicroads.vic.gov.au/,2026-09-15,learner,general,"replace with real URL/date when downloaded"
-p1_p2_conditions,"P1/P2 probationary licence conditions",https://www.vicroads.vic.gov.au/,2026-09-15,P1,general,"split into P1 vs P2 rows if the source covers both separately"
-road_rules_handbook,"Victorian Road Rules Handbook",https://www.vicroads.vic.gov.au/,2026-09-15,all,general,""
-tac_stats,"TAC road safety statistics",https://www.tac.vic.gov.au/,2026-09-15,all,statistics,""
-faq_mobile_phones,"VIC mobile phone use FAQ",https://www.vicroads.vic.gov.au/,2026-09-15,all,phone_use,""
+road_to_solo_driving_2023,"Road to Solo Driving handbook (April 2023 edition)",https://transport.vic.gov.au/road-and-active-transport/registration-and-licensing/licences/driver-history-handbooks-and-logbooks/driver-handbooks-and-logbooks,2026-09-15,all,general,"260 passages in collection.csv - source for RTS_0001 onward"
+guide_for_learners_2023,"Guide for Learners (Learner Kit, March 2023)",https://transport.vic.gov.au/road-and-active-transport/registration-and-licensing/licences/driver-history-handbooks-and-logbooks/driver-handbooks-and-logbooks,2026-09-15,learner,general,"73 passages in collection.csv"
+distracted_driver_rules,"New Victorian Road Rules - Learner and Probationary Drivers and Riders (factsheet, March 2023)",https://www.vicroads.vic.gov.au/drivingdistractions,2026-09-15,all,phone_use,"uploaded as PDF (data/raw/distracted_driver_rules.pdf) - NOT yet chunked into collection.csv; only 4 phone_use passages currently exist in the collection, all from the two handbooks above, so this factsheet is a good candidate to add next since it's the single most authoritative/current phone-use source"
+tac_stats,"TAC road safety statistics",https://www.tac.vic.gov.au/road-safety/statistics,2026-09-15,all,statistics,"not yet sourced/chunked"

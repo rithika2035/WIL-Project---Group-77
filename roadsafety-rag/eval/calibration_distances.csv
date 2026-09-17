@@ -1,0 +1,163 @@
+question_id,question,expect_answerable,top1_distance
+RS01Q01,How many hours of supervised driving do I need before I can get my P licence?,yes,0.5673563480377197
+RS01Q02,how many logbook hours do i need to go for my Ps,yes,1.0901057720184326
+RS01Q03,What is the minimum amount of supervised driving experience a learner under 21 must complete before the probationary licence test?,yes,0.5055187940597534
+RS01Q04,Does a learner driver need to do any night driving hours before the drive test?,yes,0.5678814649581909
+RS02Q01,What is the minimum age to get a learner permit in Victoria?,yes,0.4276953935623169
+RS02Q02,"I'm 15 and a half, can I sit my L test yet?",yes,1.0885599851608276
+RS02Q03,At what age are students eligible to take the learner permit knowledge test?,yes,0.6415035128593445
+RS02Q04,How old do you have to be to start learning to drive on your Ls?,yes,0.6766101717948914
+RS03Q01,How long do I have to hold my learner permit before I can apply for my probationary licence?,yes,0.4192406237125397
+RS03Q02,What's the minimum time on L plates before going for your Ps if you're over 25?,yes,1.1612608432769775
+RS03Q03,How does the minimum learner permit holding period differ by age group?,yes,0.6988175511360168
+RS03Q04,"I'm 22, do I still have to wait a full year on my learner permit?",yes,0.6061426997184753
+RS04Q01,What blood alcohol limit applies to learner and probationary drivers?,yes,0.6245576739311218
+RS04Q02,Can I have one drink and still drive on my P plates?,yes,1.0358117818832397
+RS04Q03,What BAC limit should I teach learner and P-plate students they must stay under?,yes,1.221971869468689
+RS04Q04,Is the 0.05 alcohol limit the same for L and P plate drivers?,yes,0.9997835159301758
+RS05Q01,What blood alcohol level can a supervising driver have while supervising a learner?,yes,0.7158880233764648
+RS05Q02,Am I allowed to drink a beer while supervising my daughter's driving practice?,yes,1.0069632530212402
+RS05Q03,What alcohol rules apply to the supervising driver accompanying a learner?,yes,0.7167773246765137
+RS05Q04,Does my dad need to be under 0.05 when he's sitting next to me while I drive?,yes,1.1993263959884644
+RS06Q01,How many passengers can a P1 driver carry?,yes,0.9771751165390015
+RS06Q02,can i drive my mates around once i get my red Ps,yes,1.0114994049072266
+RS06Q03,What is the peer passenger restriction for P1 probationary drivers and are there exemptions?,yes,0.7365082502365112
+RS06Q04,Is my son on red P plates allowed to have two friends his age in the car?,yes,1.1044979095458984
+RS07Q01,Can learner and P plate drivers use their phone for GPS navigation?,yes,0.9217385053634644
+RS07Q02,am i allowed to use google maps on my phone while im on my Ls,yes,1.1312510967254639
+RS07Q03,What are the mobile device rules for learner and probationary drivers regarding navigation and audio?,yes,0.6194307804107666
+RS07Q04,Can a P plater change the song on their phone while driving?,yes,1.032626748085022
+RS08Q01,What happens if my Learner Log Book is incomplete or incorrect when I go for my drive test?,yes,0.8368457555770874
+RS08Q02,What if I forget to get my supervisor to sign some log book entries?,yes,1.2300947904586792
+RS08Q03,What are the consequences of presenting an incorrectly completed Learner Log Book at the licence test?,yes,0.7523651123046875
+RS08Q04,Do you lose your test fee if the learner log book isn't filled in properly?,yes,0.8985047936439514
+RS09Q01,What is the default speed limit in a built-up area in Victoria?,yes,0.47755101323127747
+RS09Q02,if there's no speed sign in a suburban street how fast can i go,yes,0.7606727480888367
+RS09Q03,"What is the speed limit in a built-up area when no sign is displayed, and how is a built-up area defined?",yes,0.5390051603317261
+RS09Q04,What counts as a built-up area for speed limit purposes?,yes,0.487947940826416
+RS10Q01,What is the speed limit on freeways and country roads outside built-up areas?,yes,0.6775131821632385
+RS10Q02,whats the max speed on a country road with no sign,yes,0.8149502277374268
+RS10Q03,What default speed limit applies to roads outside built-up areas in Victoria?,yes,0.40424108505249023
+RS10Q04,"If a highway has no speed sign, is the limit 100 or 110 km/h?",yes,0.6798830032348633
+RS11Q01,What are the speed limits outside schools in Victoria?,yes,0.6308408975601196
+RS11Q02,how slow do i need to go past a school,yes,1.0731639862060547
+RS11Q03,How do school zone speed limits vary depending on the normal speed limit of the road?,yes,0.804128110408783
+RS11Q04,Is the school zone limit always 40 km/h?,yes,0.9770796298980713
+RS12Q01,What is the speed limit in a shared zone and who has right of way?,yes,0.6189166307449341
+RS12Q02,what does a shared zone mean for drivers,yes,0.9491483569145203
+RS12Q03,What rules apply to drivers in a shared zone?,yes,0.8287853002548218
+RS12Q04,Do I have to give way to people walking in a shared zone?,yes,0.7330219745635986
+RS13Q01,How do you make a hook turn?,yes,0.7579876184463501
+RS13Q02,whats the step by step for doing a hook turn in the city,yes,0.7315380573272705
+RS13Q03,What procedure must a driver follow when making a hook turn at a signed intersection?,yes,0.6185728311538696
+RS13Q04,Where do I wait when doing a hook turn in Melbourne?,yes,0.5453577041625977
+RS14Q01,Who has to give way at an intersection with no traffic lights or signs?,yes,0.5578281283378601
+RS14Q02,at an uncontrolled intersection do i give way to the right or left,yes,0.8413150310516357
+RS14Q03,"What give way rule applies at intersections without traffic lights, signs or lines?",yes,0.5305182933807373
+RS14Q04,What should I do at an intersection when the traffic lights aren't working?,yes,0.6727122068405151
+RS15Q01,Who must I give way to when entering a roundabout?,yes,0.6110919713973999
+RS15Q02,do i have to give way to cars already on the roundabout,yes,0.6483708620071411
+RS15Q03,What are the give way obligations for a driver entering a roundabout?,yes,0.7068814039230347
+RS15Q04,Do trams get priority at roundabouts?,yes,0.9610942006111145
+RS16Q01,What is a safe following distance behind another car?,yes,0.6842014789581299
+RS16Q02,how many seconds gap should i leave to the car in front,yes,0.48639607429504395
+RS16Q03,"What following distance should new drivers be taught, and how can they check it?",yes,0.839828372001648
+RS16Q04,When should I leave more than a two second gap?,yes,0.5842352509498596
+RS17Q01,How much space must I leave when passing a cyclist?,yes,0.5097346305847168
+RS17Q02,whats the minimum gap when overtaking a bike rider,yes,0.6803021430969238
+RS17Q03,What minimum passing distance is required for bicycle riders on roads of different speed limits?,yes,0.45951157808303833
+RS17Q04,Can I cross the centre line to get past someone on a bike?,yes,0.7291154861450195
+RS18Q01,How fast can I drive past a stopped emergency vehicle with flashing lights?,yes,0.7930811643600464
+RS18Q02,what speed do i slow to when passing police pulled over with lights on,yes,0.818020224571228
+RS18Q03,What is the rule for passing stationary emergency or enforcement vehicles displaying flashing lights?,yes,0.6482781171798706
+RS18Q04,Do I need to slow down for a police car stopped on the other side of a divided road?,yes,0.9071688652038574
+RS19Q01,What is a probationary prohibited vehicle?,yes,0.770563542842865
+RS19Q02,can i drive a turbo car on my Ps,yes,1.1707756519317627
+RS19Q03,What criteria make a vehicle probationary prohibited for P1 and P2 drivers?,yes,0.5803349614143372
+RS19Q04,Is there an exemption if my P plate son needs to drive a high-powered car?,yes,1.0901018381118774
+RS20Q01,How many demerit points can a learner or P driver get before their licence is suspended?,yes,0.46534261107444763
+RS20Q02,whats the demerit point limit on my P plates,yes,1.0867137908935547
+RS20Q03,What demerit point thresholds apply to learner and probationary drivers and what happens if they are exceeded?,yes,0.705685019493103
+RS20Q04,What is the extended demerit point period option for probationary drivers?,yes,0.7359495162963867
+RS21Q01,What type of child restraint does my child need at different ages?,yes,0.6422310471534729
+RS21Q02,can my 3 year old sit in the front seat,yes,0.7831085324287415
+RS21Q03,What are the legal child restraint requirements by age for passengers in Victoria?,yes,0.7335274815559387
+RS21Q04,When can a child stop using a booster seat?,yes,0.5908908843994141
+RS22Q01,What must I do if I'm involved in a car crash?,yes,0.5587669610977173
+RS22Q02,what are you legally required to do after an accident,yes,0.7002270221710205
+RS22Q03,What are a driver's legal obligations immediately after a crash?,yes,0.6862908005714417
+RS22Q04,Do I have to report a crash to police if nobody was hurt but I damaged a parked car?,yes,0.7763543725013733
+RS23Q01,What is the Hazard Perception Test and when can I take it?,yes,0.42639145255088806
+RS23Q02,how does the HPT work,yes,1.6618995666503906
+RS23Q03,What does the Hazard Perception Test assess and when is a learner eligible to sit it?,yes,0.5031546950340271
+RS23Q04,Do you have to pass the hazard perception test before the driving test?,yes,0.5616793632507324
+RS24Q01,When must I dip my high-beam headlights?,yes,0.573917806148529
+RS24Q02,how close does a car need to be before i switch off high beam,yes,0.6375770568847656
+RS24Q03,What are the rules for using high-beam headlights near other vehicles?,yes,0.4309889078140259
+RS24Q04,What should I do if I'm dazzled by oncoming high beams?,yes,0.6356507539749146
+RS25Q01,What are the warning signs of driver fatigue?,yes,0.7722569108009338
+RS25Q02,how do i know if im too tired to keep driving,yes,0.6378718614578247
+RS25Q03,What signs of fatigue should prompt a driver to stop driving?,yes,0.6617501974105835
+RS25Q04,Does drinking coffee stop you getting tired while driving?,yes,0.772979736328125
+RS26Q01,What should I practise in Stage 1 of learning to drive and where should I do it?,yes,0.4474083185195923
+RS26Q02,where's a good place for my first ever driving lesson,yes,0.7939086556434631
+RS26Q03,What are the Stage 1 goals in the Learner Kit's four-stage approach?,yes,0.5266727209091187
+RS26Q04,When is a learner ready to move on from Stage 1 to Stage 2?,yes,0.8337885737419128
+RS27Q01,What does the car I use for my on-road drive test need to have?,yes,0.7755206823348999
+RS27Q02,can i use my mum's car for the driving test and what does it need,yes,0.8864583969116211
+RS27Q03,What vehicle requirements must be met for a probationary licence drive test?,yes,0.591042160987854
+RS27Q04,Can parking sensors and reversing cameras be left on during the drive test?,yes,0.9342750310897827
+RS28Q01,What happens if I pass my driving test in an automatic car?,yes,0.7713965177536011
+RS28Q02,if i do my test in an auto can i drive a manual on my Ps,yes,0.8036900162696838
+RS28Q03,How does the transmission type used in the drive test affect a probationary licence?,yes,0.9008843898773193
+RS28Q04,How can a P plater get the automatic-only condition removed from their licence?,yes,0.8701161742210388
+RS29Q01,"I'm 19 on my red Ps. If I have one beer at a party, can I still drive three friends my age home?",yes,1.111760139465332
+RS29Q02,Would a P1 driver who had a single drink and is carrying three 18-year-old mates be breaking any rules?,yes,0.8968208432197571
+RS30Q01,My older brother is on his green P plates. Can he supervise me while I drive on my Ls?,yes,0.9349297285079956
+RS30Q02,Is a P2 probationary driver allowed to act as a supervising driver for a learner?,yes,0.7533755302429199
+RS31Q01,I'm 22 and just got my learner permit. What is the fastest I can legally get a full driver licence?,yes,0.7091680765151978
+RS31Q02,"For someone aged 21 to 24, what is the shortest pathway from learner permit to full licence?",yes,0.5851218104362488
+RS32Q01,"If I get my P1 licence at 18 and keep a clean record, when can I get my full licence and will I have to pay for it?",yes,0.6878634691238403
+RS32Q02,"At what age could an 18-year-old new P plater become fully licensed, and is there any free licence scheme?",yes,0.695037305355072
+RS33Q01,"Once I move from red to green P plates, am I still limited to one passenger my age?",yes,1.0762312412261963
+RS33Q02,Does the peer passenger restriction continue to apply when a driver progresses from P1 to P2?,yes,0.9766924977302551
+RS34Q01,What would happen if a P1 driver was caught with a blood alcohol reading of 0.02?,yes,0.7877442836761475
+RS34Q02,What penalties apply to a probationary driver who records a low but non-zero BAC for the first time?,yes,0.8340835571289062
+RS35Q01,I'm on my P2. Can I hold my phone on my lap to follow Google Maps if I don't touch it much?,yes,1.146796703338623
+RS35Q02,Is it legal for a green P plater to rest their phone on their leg while using it for directions?,yes,1.1079354286193848
+RS36Q01,"If my learner permit gets suspended for demerit points, will it delay when I can go for my Ps?",yes,0.7203675508499146
+RS36Q02,How does a learner permit suspension affect a learner's eligibility date for the probationary licence test?,yes,0.5037879347801208
+RS37Q01,What should I check and plan before a long country drive to avoid breaking down or getting tired?,yes,0.8398619890213013
+RS37Q02,"going on a long road trip for the first time, how do i prepare the car and myself",yes,0.7962104082107544
+RS38Q01,How should I adjust my driving and lights when driving at night in thick fog?,yes,0.9336684346199036
+RS38Q02,What lighting rules and safe driving adjustments apply when visibility is reduced by fog?,yes,0.9071332216262817
+RS39Q01,What do I need to bring with me on the day of my probationary licence test?,yes,0.6986351013183594
+RS39Q02,What documents and paperwork should my daughter take to her P plate drive test appointment?,yes,1.0011353492736816
+RS40Q01,What are the differences between the alcohol and phone rules for me as a learner and for my supervising driver?,yes,0.8083006143569946
+RS40Q02,How do alcohol and mobile phone obligations differ between a learner driver and their supervising driver?,yes,0.7905327081680298
+RS41Q01,How much is the fine for using a mobile phone while driving in Victoria?,no,0.7341240644454956
+RS41Q02,whats the dollar penalty if you get caught texting while driving,no,0.7190285325050354
+RS42Q01,How many demerit points do you lose for speeding 10 km/h over the limit?,no,0.826429009437561
+RS42Q02,What is the demerit point value for running a red light?,no,1.1759133338928223
+RS43Q01,How much does it cost to get a learner permit?,no,0.8350183963775635
+RS43Q02,What is the fee for booking a probationary licence drive test?,no,0.8205679655075073
+RS44Q01,How many questions are on the learner permit test and what score do I need to pass?,no,0.6921062469482422
+RS44Q02,What is the pass mark for the Victorian learner permit knowledge test?,no,0.7965188026428223
+RS45Q01,"In New South Wales, how many passengers can a P1 driver carry at night?",no,1.014483094215393
+RS45Q02,What are the Queensland P plate passenger restrictions?,no,1.0180400609970093
+RS46Q01,Can I ride an e-scooter on the footpath in Melbourne?,no,1.0012404918670654
+RS46Q02,What speed limit applies to electric scooters on shared paths?,no,1.013200283050537
+RS47Q01,How many people died on Victorian roads last year?,no,1.0173728466033936
+RS47Q02,Is Victoria's road toll trending up or down this year?,no,1.0584909915924072
+RS48Q01,How do I get a motorcycle learner permit in Victoria?,no,0.6714126467704773
+RS48Q02,what bikes can i ride on a motorcycle learner permit,no,1.0170084238052368
+RS49Q01,What is the legal limit for window tinting on a car in Victoria?,no,0.9849554896354675
+RS49Q02,can i get dark tinted windows on my car on my Ps,no,1.3817503452301025
+RS50Q01,How many km/h over the limit can you go before a speed camera fines you?,no,0.9054083228111267
+RS50Q02,is there a speed camera tolerance in victoria,no,0.8218262195587158
+RS51Q01,What do I need to do to get a heavy rigid truck licence?,no,0.9256967306137085
+RS51Q02,How long do you have to hold a car licence before upgrading to a bus licence?,no,0.7638511061668396
+RS52Q01,Is it illegal to drive barefoot or in thongs in Victoria?,no,0.9976538419723511
+RS52Q02,can i do my driving test wearing thongs,no,1.1905581951141357
+RS53Q01,How much is the TAC charge included in car registration?,no,1.2465068101882935
+RS53Q02,what kind of car insurance do i need once i get my Ps,no,1.2286162376403809

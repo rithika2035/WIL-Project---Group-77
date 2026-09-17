@@ -1,0 +1,163 @@
+question_id,persona,question,expect_answerable,expected_driver_stage,expected_topic,gold_source_doc_id,question_type,variant
+RS01Q01,learner,How many hours of supervised driving do I need before I can get my P licence?,yes,learner,licensing,,known,original
+RS01Q02,learner,how many logbook hours do i need to go for my Ps,yes,learner,licensing,,known,paraphrase
+RS01Q03,educator,What is the minimum amount of supervised driving experience a learner under 21 must complete before the probationary licence test?,yes,learner,licensing,,known,paraphrase
+RS01Q04,general,Does a learner driver need to do any night driving hours before the drive test?,yes,learner,licensing,,known,focused
+RS02Q01,general,What is the minimum age to get a learner permit in Victoria?,yes,learner,licensing,,known,original
+RS02Q02,learner,"I'm 15 and a half, can I sit my L test yet?",yes,learner,licensing,,known,paraphrase
+RS02Q03,educator,At what age are students eligible to take the learner permit knowledge test?,yes,learner,licensing,,known,paraphrase
+RS02Q04,general,How old do you have to be to start learning to drive on your Ls?,yes,learner,licensing,,known,paraphrase
+RS03Q01,learner,How long do I have to hold my learner permit before I can apply for my probationary licence?,yes,learner,licensing,,known,original
+RS03Q02,general,What's the minimum time on L plates before going for your Ps if you're over 25?,yes,learner,licensing,,known,focused
+RS03Q03,educator,How does the minimum learner permit holding period differ by age group?,yes,learner,licensing,,known,paraphrase
+RS03Q04,learner,"I'm 22, do I still have to wait a full year on my learner permit?",yes,learner,licensing,,known,focused
+RS04Q01,learner,What blood alcohol limit applies to learner and probationary drivers?,yes,learner;P1;P2,alcohol_drugs,,known,original
+RS04Q02,learner,Can I have one drink and still drive on my P plates?,yes,learner;P1;P2,alcohol_drugs,,known,paraphrase
+RS04Q03,educator,What BAC limit should I teach learner and P-plate students they must stay under?,yes,learner;P1;P2,alcohol_drugs,,known,paraphrase
+RS04Q04,general,Is the 0.05 alcohol limit the same for L and P plate drivers?,yes,learner;P1;P2,alcohol_drugs,,known,paraphrase
+RS05Q01,general,What blood alcohol level can a supervising driver have while supervising a learner?,yes,learner,alcohol_drugs,,known,original
+RS05Q02,general,Am I allowed to drink a beer while supervising my daughter's driving practice?,yes,learner,alcohol_drugs,,known,focused
+RS05Q03,educator,What alcohol rules apply to the supervising driver accompanying a learner?,yes,learner,alcohol_drugs,,known,paraphrase
+RS05Q04,learner,Does my dad need to be under 0.05 when he's sitting next to me while I drive?,yes,learner,alcohol_drugs,,known,paraphrase
+RS06Q01,learner,How many passengers can a P1 driver carry?,yes,P1,passengers,,known,original
+RS06Q02,learner,can i drive my mates around once i get my red Ps,yes,P1,passengers,,known,paraphrase
+RS06Q03,educator,What is the peer passenger restriction for P1 probationary drivers and are there exemptions?,yes,P1,passengers,,known,paraphrase
+RS06Q04,general,Is my son on red P plates allowed to have two friends his age in the car?,yes,P1,passengers,,known,paraphrase
+RS07Q01,learner,Can learner and P plate drivers use their phone for GPS navigation?,yes,learner;P1;P2,phone_use,,known,original
+RS07Q02,learner,am i allowed to use google maps on my phone while im on my Ls,yes,learner;P1;P2,phone_use,,known,paraphrase
+RS07Q03,educator,What are the mobile device rules for learner and probationary drivers regarding navigation and audio?,yes,learner;P1;P2,phone_use,,known,paraphrase
+RS07Q04,general,Can a P plater change the song on their phone while driving?,yes,learner;P1;P2,phone_use,,known,focused
+RS08Q01,learner,What happens if my Learner Log Book is incomplete or incorrect when I go for my drive test?,yes,learner,licensing,,known,original
+RS08Q02,learner,What if I forget to get my supervisor to sign some log book entries?,yes,learner,licensing,,known,paraphrase
+RS08Q03,educator,What are the consequences of presenting an incorrectly completed Learner Log Book at the licence test?,yes,learner,licensing,,known,paraphrase
+RS08Q04,general,Do you lose your test fee if the learner log book isn't filled in properly?,yes,learner,licensing,,known,focused
+RS09Q01,general,What is the default speed limit in a built-up area in Victoria?,yes,all,speed,,known,original
+RS09Q02,learner,if there's no speed sign in a suburban street how fast can i go,yes,all,speed,,known,paraphrase
+RS09Q03,educator,"What is the speed limit in a built-up area when no sign is displayed, and how is a built-up area defined?",yes,all,speed,,known,paraphrase
+RS09Q04,general,What counts as a built-up area for speed limit purposes?,yes,all,speed,,known,focused
+RS10Q01,general,What is the speed limit on freeways and country roads outside built-up areas?,yes,all,speed,,known,original
+RS10Q02,learner,whats the max speed on a country road with no sign,yes,all,speed,,known,paraphrase
+RS10Q03,educator,What default speed limit applies to roads outside built-up areas in Victoria?,yes,all,speed,,known,paraphrase
+RS10Q04,general,"If a highway has no speed sign, is the limit 100 or 110 km/h?",yes,all,speed,,known,paraphrase
+RS11Q01,general,What are the speed limits outside schools in Victoria?,yes,all,speed,,known,original
+RS11Q02,learner,how slow do i need to go past a school,yes,all,speed,,known,paraphrase
+RS11Q03,educator,How do school zone speed limits vary depending on the normal speed limit of the road?,yes,all,speed,,known,paraphrase
+RS11Q04,general,Is the school zone limit always 40 km/h?,yes,all,speed,,known,paraphrase
+RS12Q01,general,What is the speed limit in a shared zone and who has right of way?,yes,all,speed,,known,original
+RS12Q02,learner,what does a shared zone mean for drivers,yes,all,speed,,known,paraphrase
+RS12Q03,educator,What rules apply to drivers in a shared zone?,yes,all,speed,,known,paraphrase
+RS12Q04,general,Do I have to give way to people walking in a shared zone?,yes,all,speed,,known,focused
+RS13Q01,learner,How do you make a hook turn?,yes,all,turning,,known,original
+RS13Q02,learner,whats the step by step for doing a hook turn in the city,yes,all,turning,,known,paraphrase
+RS13Q03,educator,What procedure must a driver follow when making a hook turn at a signed intersection?,yes,all,turning,,known,paraphrase
+RS13Q04,general,Where do I wait when doing a hook turn in Melbourne?,yes,all,turning,,known,focused
+RS14Q01,general,Who has to give way at an intersection with no traffic lights or signs?,yes,all,intersections_give_way,,known,original
+RS14Q02,learner,at an uncontrolled intersection do i give way to the right or left,yes,all,intersections_give_way,,known,paraphrase
+RS14Q03,educator,"What give way rule applies at intersections without traffic lights, signs or lines?",yes,all,intersections_give_way,,known,paraphrase
+RS14Q04,general,What should I do at an intersection when the traffic lights aren't working?,yes,all,intersections_give_way,,known,focused
+RS15Q01,general,Who must I give way to when entering a roundabout?,yes,all,intersections_give_way,,known,original
+RS15Q02,learner,do i have to give way to cars already on the roundabout,yes,all,intersections_give_way,,known,paraphrase
+RS15Q03,educator,What are the give way obligations for a driver entering a roundabout?,yes,all,intersections_give_way,,known,paraphrase
+RS15Q04,general,Do trams get priority at roundabouts?,yes,all,intersections_give_way,,known,focused
+RS16Q01,learner,What is a safe following distance behind another car?,yes,all,risk_reduction,,known,original
+RS16Q02,learner,how many seconds gap should i leave to the car in front,yes,all,risk_reduction,,known,paraphrase
+RS16Q03,educator,"What following distance should new drivers be taught, and how can they check it?",yes,all,risk_reduction,,known,paraphrase
+RS16Q04,general,When should I leave more than a two second gap?,yes,all,risk_reduction,,known,focused
+RS17Q01,general,How much space must I leave when passing a cyclist?,yes,all,sharing_the_road,,known,original
+RS17Q02,learner,whats the minimum gap when overtaking a bike rider,yes,all,sharing_the_road,,known,paraphrase
+RS17Q03,educator,What minimum passing distance is required for bicycle riders on roads of different speed limits?,yes,all,sharing_the_road,,known,paraphrase
+RS17Q04,general,Can I cross the centre line to get past someone on a bike?,yes,all,sharing_the_road,,known,focused
+RS18Q01,general,How fast can I drive past a stopped emergency vehicle with flashing lights?,yes,all,sharing_the_road,,known,original
+RS18Q02,learner,what speed do i slow to when passing police pulled over with lights on,yes,all,sharing_the_road,,known,paraphrase
+RS18Q03,educator,What is the rule for passing stationary emergency or enforcement vehicles displaying flashing lights?,yes,all,sharing_the_road,,known,paraphrase
+RS18Q04,general,Do I need to slow down for a police car stopped on the other side of a divided road?,yes,all,sharing_the_road,,known,focused
+RS19Q01,learner,What is a probationary prohibited vehicle?,yes,P1;P2,licensing,,known,original
+RS19Q02,learner,can i drive a turbo car on my Ps,yes,P1;P2,licensing,,known,paraphrase
+RS19Q03,educator,What criteria make a vehicle probationary prohibited for P1 and P2 drivers?,yes,P1;P2,licensing,,known,paraphrase
+RS19Q04,general,Is there an exemption if my P plate son needs to drive a high-powered car?,yes,P1;P2,licensing,,known,focused
+RS20Q01,learner,How many demerit points can a learner or P driver get before their licence is suspended?,yes,learner;P1;P2,penalties,,known,original
+RS20Q02,learner,whats the demerit point limit on my P plates,yes,learner;P1;P2,penalties,,known,paraphrase
+RS20Q03,educator,What demerit point thresholds apply to learner and probationary drivers and what happens if they are exceeded?,yes,learner;P1;P2,penalties,,known,paraphrase
+RS20Q04,general,What is the extended demerit point period option for probationary drivers?,yes,learner;P1;P2,penalties,,known,focused
+RS21Q01,general,What type of child restraint does my child need at different ages?,yes,all,seatbelts_restraints,,known,original
+RS21Q02,general,can my 3 year old sit in the front seat,yes,all,seatbelts_restraints,,known,focused
+RS21Q03,educator,What are the legal child restraint requirements by age for passengers in Victoria?,yes,all,seatbelts_restraints,,known,paraphrase
+RS21Q04,general,When can a child stop using a booster seat?,yes,all,seatbelts_restraints,,known,focused
+RS22Q01,general,What must I do if I'm involved in a car crash?,yes,all,crashes_first_aid,,known,original
+RS22Q02,learner,what are you legally required to do after an accident,yes,all,crashes_first_aid,,known,paraphrase
+RS22Q03,educator,What are a driver's legal obligations immediately after a crash?,yes,all,crashes_first_aid,,known,paraphrase
+RS22Q04,general,Do I have to report a crash to police if nobody was hurt but I damaged a parked car?,yes,all,crashes_first_aid,,known,focused
+RS23Q01,learner,What is the Hazard Perception Test and when can I take it?,yes,learner,licensing,,known,original
+RS23Q02,learner,how does the HPT work,yes,learner,licensing,,known,paraphrase
+RS23Q03,educator,What does the Hazard Perception Test assess and when is a learner eligible to sit it?,yes,learner,licensing,,known,paraphrase
+RS23Q04,general,Do you have to pass the hazard perception test before the driving test?,yes,learner,licensing,,known,focused
+RS24Q01,general,When must I dip my high-beam headlights?,yes,all,sharing_the_road,,known,original
+RS24Q02,learner,how close does a car need to be before i switch off high beam,yes,all,sharing_the_road,,known,paraphrase
+RS24Q03,educator,What are the rules for using high-beam headlights near other vehicles?,yes,all,sharing_the_road,,known,paraphrase
+RS24Q04,general,What should I do if I'm dazzled by oncoming high beams?,yes,all,sharing_the_road,,known,focused
+RS25Q01,general,What are the warning signs of driver fatigue?,yes,all,fatigue,,known,original
+RS25Q02,learner,how do i know if im too tired to keep driving,yes,all,fatigue,,known,paraphrase
+RS25Q03,educator,What signs of fatigue should prompt a driver to stop driving?,yes,all,fatigue,,known,paraphrase
+RS25Q04,general,Does drinking coffee stop you getting tired while driving?,yes,all,fatigue,,known,focused
+RS26Q01,learner,What should I practise in Stage 1 of learning to drive and where should I do it?,yes,learner,learning_to_drive,,known,original
+RS26Q02,learner,where's a good place for my first ever driving lesson,yes,learner,learning_to_drive,,known,focused
+RS26Q03,educator,What are the Stage 1 goals in the Learner Kit's four-stage approach?,yes,learner,learning_to_drive,,known,focused
+RS26Q04,general,When is a learner ready to move on from Stage 1 to Stage 2?,yes,learner,learning_to_drive,,known,focused
+RS27Q01,learner,What does the car I use for my on-road drive test need to have?,yes,learner,licensing,,known,original
+RS27Q02,learner,can i use my mum's car for the driving test and what does it need,yes,learner,licensing,,known,paraphrase
+RS27Q03,educator,What vehicle requirements must be met for a probationary licence drive test?,yes,learner,licensing,,known,paraphrase
+RS27Q04,general,Can parking sensors and reversing cameras be left on during the drive test?,yes,learner,licensing,,known,focused
+RS28Q01,learner,What happens if I pass my driving test in an automatic car?,yes,P1;P2,licensing,,known,original
+RS28Q02,learner,if i do my test in an auto can i drive a manual on my Ps,yes,P1;P2,licensing,,known,paraphrase
+RS28Q03,educator,How does the transmission type used in the drive test affect a probationary licence?,yes,P1;P2,licensing,,known,paraphrase
+RS28Q04,general,How can a P plater get the automatic-only condition removed from their licence?,yes,P1;P2,licensing,,known,focused
+RS29Q01,learner,"I'm 19 on my red Ps. If I have one beer at a party, can I still drive three friends my age home?",yes,P1,alcohol_drugs,,inferred,original
+RS29Q02,general,Would a P1 driver who had a single drink and is carrying three 18-year-old mates be breaking any rules?,yes,P1,alcohol_drugs,,inferred,paraphrase
+RS30Q01,learner,My older brother is on his green P plates. Can he supervise me while I drive on my Ls?,yes,learner,learning_to_drive,,inferred,original
+RS30Q02,general,Is a P2 probationary driver allowed to act as a supervising driver for a learner?,yes,learner,learning_to_drive,,inferred,paraphrase
+RS31Q01,general,I'm 22 and just got my learner permit. What is the fastest I can legally get a full driver licence?,yes,learner;P2,licensing,,inferred,original
+RS31Q02,educator,"For someone aged 21 to 24, what is the shortest pathway from learner permit to full licence?",yes,learner;P2,licensing,,inferred,paraphrase
+RS32Q01,learner,"If I get my P1 licence at 18 and keep a clean record, when can I get my full licence and will I have to pay for it?",yes,P1;P2,licensing,,inferred,original
+RS32Q02,general,"At what age could an 18-year-old new P plater become fully licensed, and is there any free licence scheme?",yes,P1;P2,licensing,,inferred,paraphrase
+RS33Q01,learner,"Once I move from red to green P plates, am I still limited to one passenger my age?",yes,P1;P2,passengers,,inferred,original
+RS33Q02,educator,Does the peer passenger restriction continue to apply when a driver progresses from P1 to P2?,yes,P1;P2,passengers,,inferred,paraphrase
+RS34Q01,learner,What would happen if a P1 driver was caught with a blood alcohol reading of 0.02?,yes,P1;P2,penalties,,inferred,original
+RS34Q02,educator,What penalties apply to a probationary driver who records a low but non-zero BAC for the first time?,yes,P1;P2,penalties,,inferred,paraphrase
+RS35Q01,learner,I'm on my P2. Can I hold my phone on my lap to follow Google Maps if I don't touch it much?,yes,P2,phone_use,,inferred,original
+RS35Q02,general,Is it legal for a green P plater to rest their phone on their leg while using it for directions?,yes,P2,phone_use,,inferred,paraphrase
+RS36Q01,learner,"If my learner permit gets suspended for demerit points, will it delay when I can go for my Ps?",yes,learner,penalties,,inferred,original
+RS36Q02,educator,How does a learner permit suspension affect a learner's eligibility date for the probationary licence test?,yes,learner,penalties,,inferred,paraphrase
+RS37Q01,general,What should I check and plan before a long country drive to avoid breaking down or getting tired?,yes,all,vehicle_safety,,inferred,original
+RS37Q02,learner,"going on a long road trip for the first time, how do i prepare the car and myself",yes,all,vehicle_safety,,inferred,paraphrase
+RS38Q01,general,How should I adjust my driving and lights when driving at night in thick fog?,yes,all,risk_reduction,,inferred,original
+RS38Q02,educator,What lighting rules and safe driving adjustments apply when visibility is reduced by fog?,yes,all,risk_reduction,,inferred,paraphrase
+RS39Q01,learner,What do I need to bring with me on the day of my probationary licence test?,yes,learner,licensing,,inferred,original
+RS39Q02,general,What documents and paperwork should my daughter take to her P plate drive test appointment?,yes,learner,licensing,,inferred,paraphrase
+RS40Q01,learner,What are the differences between the alcohol and phone rules for me as a learner and for my supervising driver?,yes,learner,learning_to_drive,,inferred,original
+RS40Q02,educator,How do alcohol and mobile phone obligations differ between a learner driver and their supervising driver?,yes,learner,learning_to_drive,,inferred,paraphrase
+RS41Q01,general,How much is the fine for using a mobile phone while driving in Victoria?,no,all,phone_use,,out_of_kb,original
+RS41Q02,learner,whats the dollar penalty if you get caught texting while driving,no,all,phone_use,,out_of_kb,paraphrase
+RS42Q01,general,How many demerit points do you lose for speeding 10 km/h over the limit?,no,all,penalties,,out_of_kb,original
+RS42Q02,educator,What is the demerit point value for running a red light?,no,all,penalties,,out_of_kb,paraphrase
+RS43Q01,learner,How much does it cost to get a learner permit?,no,learner,licensing,,out_of_kb,original
+RS43Q02,general,What is the fee for booking a probationary licence drive test?,no,learner,licensing,,out_of_kb,paraphrase
+RS44Q01,learner,How many questions are on the learner permit test and what score do I need to pass?,no,learner,licensing,,out_of_kb,original
+RS44Q02,educator,What is the pass mark for the Victorian learner permit knowledge test?,no,learner,licensing,,out_of_kb,paraphrase
+RS45Q01,learner,"In New South Wales, how many passengers can a P1 driver carry at night?",no,P1,passengers,,out_of_kb,original
+RS45Q02,general,What are the Queensland P plate passenger restrictions?,no,P1,passengers,,out_of_kb,paraphrase
+RS46Q01,general,Can I ride an e-scooter on the footpath in Melbourne?,no,all,sharing_the_road,,out_of_kb,original
+RS46Q02,educator,What speed limit applies to electric scooters on shared paths?,no,all,sharing_the_road,,out_of_kb,paraphrase
+RS47Q01,general,How many people died on Victorian roads last year?,no,all,new_driver_crash_risk,,out_of_kb,original
+RS47Q02,educator,Is Victoria's road toll trending up or down this year?,no,all,new_driver_crash_risk,,out_of_kb,paraphrase
+RS48Q01,general,How do I get a motorcycle learner permit in Victoria?,no,all,licensing,,out_of_kb,original
+RS48Q02,learner,what bikes can i ride on a motorcycle learner permit,no,all,licensing,,out_of_kb,paraphrase
+RS49Q01,general,What is the legal limit for window tinting on a car in Victoria?,no,all,legal_responsibilities,,out_of_kb,original
+RS49Q02,learner,can i get dark tinted windows on my car on my Ps,no,all,legal_responsibilities,,out_of_kb,paraphrase
+RS50Q01,general,How many km/h over the limit can you go before a speed camera fines you?,no,all,speed,,out_of_kb,original
+RS50Q02,learner,is there a speed camera tolerance in victoria,no,all,speed,,out_of_kb,paraphrase
+RS51Q01,general,What do I need to do to get a heavy rigid truck licence?,no,all,licensing,,out_of_kb,original
+RS51Q02,general,How long do you have to hold a car licence before upgrading to a bus licence?,no,all,licensing,,out_of_kb,paraphrase
+RS52Q01,general,Is it illegal to drive barefoot or in thongs in Victoria?,no,all,legal_responsibilities,,out_of_kb,original
+RS52Q02,learner,can i do my driving test wearing thongs,no,all,legal_responsibilities,,out_of_kb,paraphrase
+RS53Q01,general,How much is the TAC charge included in car registration?,no,all,vehicle_safety,,out_of_kb,original
+RS53Q02,learner,what kind of car insurance do i need once i get my Ps,no,all,vehicle_safety,,out_of_kb,paraphrase

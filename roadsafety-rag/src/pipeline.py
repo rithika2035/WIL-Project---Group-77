@@ -2,8 +2,9 @@
 End-to-end CLI.
 
 Usage:
-    python pipeline.py build            # ingest -> chunk -> embed -> index
-    python pipeline.py ask "question"   # retrieve -> generate -> print answer
+    python pipeline.py build              # raw PDFs: ingest -> chunk -> embed -> index
+    python pipeline.py build-collection   # pre-chunked data/collection.csv -> embed -> index
+    python pipeline.py ask "question"     # retrieve -> generate -> print answer
 """
 import sys
 
@@ -12,6 +13,7 @@ from chunking import build_chunks, save_chunks
 from embed_store import build_index
 from retrieval import retrieve
 from generation import generate_answer
+import load_collection
 
 
 def build():
@@ -19,6 +21,12 @@ def build():
     print(f"Loaded {len(docs)} documents")
     chunks = build_chunks(docs)
     save_chunks(chunks)
+    build_index(chunks)
+
+
+def build_from_collection():
+    chunks = load_collection.load_chunks()
+    print(f"Loaded {len(chunks)} pre-chunked passages from data/collection.csv")
     build_index(chunks)
 
 
@@ -42,6 +50,8 @@ if __name__ == "__main__":
     command = sys.argv[1]
     if command == "build":
         build()
+    elif command == "build-collection":
+        build_from_collection()
     elif command == "ask":
         if len(sys.argv) < 3:
             print("Usage: python pipeline.py ask \"your question\"")

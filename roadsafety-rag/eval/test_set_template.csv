@@ -1,9 +1,9 @@
 question_id,persona,question,expect_answerable,expected_driver_stage,expected_topic,gold_source_doc_id,notes
-q1,learner,"How many supervised hours do I need before I can get my P1?",yes,learner,general,learner_handbook,
-q2,learner,"Do I need L plates on a borrowed car?",yes,learner,general,learner_handbook,
-q3,educator,"What exactly changes in phone-use rules between P1 and P2?",yes,P1,phone_use,p1_p2_conditions,"stage-nuance question - system must not conflate P1 and P2 answers"
-q4,educator,"What's the correct BAC limit to teach P-plate students?",yes,P1,alcohol_drugs,p1_p2_conditions,
-q5,general,"What's the speed limit in a school zone and when does it apply?",yes,all,speed,road_rules_handbook,
-q6,general,"Can I drive interstate on my Victorian P1?",yes,P1,general,p1_p2_conditions,"stage nuance test question from Phase 1"
-q7,general,"What's the exact fine amount for a first mobile phone offence in 2019?",no,all,phone_use,,"deliberately out of scope/outdated - system should abstain, not guess"
-q8,general,"What's my star sign compatibility with a Gemini?",no,all,general,,"deliberately irrelevant - system must abstain"
+q1,learner,"How many hours of supervised driving experience do I need before my drive test?",yes,learner,licensing,road_to_solo_driving_2023,"see RTS_0017 - 120 hours incl. 20 at night"
+q2,learner,"Do I need to carry my learner permit while driving?",yes,learner,licensing,road_to_solo_driving_2023,"see RTS_0019"
+q3,educator,"What's the zero BAC rule for learner drivers?",yes,learner,alcohol_drugs,road_to_solo_driving_2023,
+q4,educator,"What are the four stages in the Guide for Learners?",yes,learner,learning_to_drive,guide_for_learners_2023,"tests whether retrieval pulls from guide_for_learners_2023 specifically, not road_to_solo_driving_2023"
+q5,general,"Can I use hands-free phone calls on my P1 licence?",yes,P1,phone_use,road_to_solo_driving_2023,"stage-nuance question - only 4 phone_use passages exist total, check retrieval doesn't default to the learner-only ones"
+q6,general,"What documents do I need to bring to book my learner permit test?",yes,all,licensing,road_to_solo_driving_2023,"see RTS_0014/RTS_0015 - evidence of identity"
+q7,general,"What was the average house price in Melbourne in 2019?",no,all,general,,"deliberately irrelevant - system must abstain"
+q8,general,"What's the exact demerit point threshold that suspends a P1 licence in 2024?",no,P1,penalties,,"deliberately out of scope for this collection - check it abstains rather than guessing"
